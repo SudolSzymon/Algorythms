@@ -1,0 +1,2 @@
+program as input takes n number of vertices and then m number of edges and m edges in form of 3 numbers(startingvertice endingvertice weightofedge)
+result is the cost of the minimal spanning tree
