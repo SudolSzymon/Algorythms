@@ -1,0 +1,3 @@
+C:/Users/Szymon/Desktop/c++algorythmsImplementation/MinimalSpiningTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Szymon/Desktop/c++algorythmsImplementation/MinimalSpiningTree/cmake-build-debug/CMakeFiles/MinimalSpiningTree.dir
+C:/Users/Szymon/Desktop/c++algorythmsImplementation/MinimalSpiningTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

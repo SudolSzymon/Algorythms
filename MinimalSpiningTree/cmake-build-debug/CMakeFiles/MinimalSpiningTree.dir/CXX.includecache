@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Szymon/Desktop/c++algorythmsImplementation/MinimalSpiningTree/main.cpp
+cstdio
+-
+algorithm
+-
+queue
+-
+
