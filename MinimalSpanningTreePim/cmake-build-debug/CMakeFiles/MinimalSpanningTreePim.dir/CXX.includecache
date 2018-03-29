@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Szymon/Desktop/c++algorythmsImplementation/MinimalSpanningTreePim/main.cpp
+vector
+-
+algorithm
+-
+queue
+-
+iostream
+-
+
