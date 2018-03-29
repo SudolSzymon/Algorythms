@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
  
-void Sortowanie( int tab[], int size )
+void Sorting(int *tab, int size)
 {
     int temp, j;
     
@@ -30,10 +30,9 @@ int main()
            
             cin>>tab[i];
     }
- 
-    
- 
-    Sortowanie(tab,n);
+
+
+    Sorting(tab, n);
  
     
     for(int i=0; i<n; i++)
