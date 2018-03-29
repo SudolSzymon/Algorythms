@@ -1,0 +1,3 @@
+C:/Users/Szymon/Desktop/c++algorythmsImplementation/SortingAlgorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Szymon/Desktop/c++algorythmsImplementation/SortingAlgorithms/cmake-build-debug/CMakeFiles/SortingAlgorithms.dir
+C:/Users/Szymon/Desktop/c++algorythmsImplementation/SortingAlgorithms/cmake-build-debug/CMakeFiles/edit_cache.dir

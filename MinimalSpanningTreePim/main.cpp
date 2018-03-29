@@ -8,7 +8,7 @@ pair<int,int> p;
 bool vis [10001];
 vector<pair<int,int> >  v[10001];
 int a,b,c,d=1,n,m;
-long long wynik=0;
+long long result=0;
 priority_queue <pair<int,int> > q;
 
 int main()
@@ -22,15 +22,14 @@ int main()
         cin>>a;
         cin>>b;
         cin>>c;
-        v[a].push_back(make_pair(c, b));
-        v[b].push_back(make_pair(c, a));
+        v[a].emplace_back(c, b);
+        v[b].emplace_back(c, a);
     }
 
     vis[1]=true;
-    for(int i=0;i<v[1].size();i++)
-    {
-        p.first=-1*v[1][i].first;
-        p.second=v[1][i].second;
+    for (auto &i : v[1]) {
+        p.first=-1* i.first;
+        p.second= i.second;
         q.push(p);
     }
     pair<int,int> pair;
@@ -38,7 +37,7 @@ int main()
     {
         pair=q.top();
         q.pop();
-        if(vis[pair.second]==false)
+        if(!vis[pair.second])
         {
 
             vis[pair.second]=true;
@@ -50,11 +49,11 @@ int main()
                 q.push(p);
             }
             n--;
-            wynik=wynik-pair.first;
+            result =result-pair.first;
         }
 
 
     }
-    cout<<wynik<<"\n";
+    cout<<result<<"\n";
     return 0;
 }
